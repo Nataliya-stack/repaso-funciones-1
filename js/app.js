@@ -1,8 +1,8 @@
-const contarCaracteres = (cadena) => cadena.length;
-
 const inputEl = document.getElementById("input");
 const btnEl = document.getElementById("btn");
 const resultEl = document.getElementById("resultado");
+
+const contarCaracteres = (cadena) => cadena.length;
 
 btnEl.addEventListener("click", () => {
     const texto = inputEl.value.trim();
